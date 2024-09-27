@@ -76,17 +76,3 @@ function limparCarrinho() {
 }
 
 carrinho.inicializar();
-
-/*const blusa1 = criarProduto("Blusa Branca", 49.90);
-const blusa2 = criarProduto("Blusa Azul", 59.90);
-
-carrinho.adicionarProduto(blusa1);
-carrinho.adicionarProduto(blusa2);
-carrinho.listarItens();
-
-console.log(`Total: R$${carrinho.calcularTotal().toFixed(2)}`);
-
-carrinho.removerProduto("Blusa Branca");
-carrinho.listarItens();
-
-console.log(`Total: R$${carrinho.calcularTotal().toFixed(2)}`);*/
