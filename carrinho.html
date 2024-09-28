@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOC - Home</title>
+    <link rel="stylesheet" type="text/css" href="./css/principal.css"/>
+    <link rel="shortcut icon" type="imagex/png" href="./icons/noc.png">
+    <link rel="stylesheet" href="./css/carrinho.css">
+    <script src="./js/carrinho.js"></script>
+</head>
+<body>
+    <nav id="topoNav">
+        <ul>
+            <img src="./imgs/logoPrincipal.png" alt="Logo Principal" id="logoPrincipal"/>
+            <li><a href="catalogo.html">CATÁLOGO</a></li>
+            <li><a href="lookbook.html">LOOKBOOK</a></li>
+            <li><a href="sobre.html">SOBRE NÓS</a></li>
+            <li><a href="./home.html">HOME</a></li>
+        </ul>
+    </nav>
+    
+    <div class="produtos">
+        <h2>Produtos</h2>
+        <div class="produto">
+            <span>Blusa Branca - R$49.90</span>
+            <button onclick="adicionarProduto('Blusa Branca', 49.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <span>Blusa Azul - R$59.90</span>
+            <button onclick="adicionarProduto('Blusa Azul', 59.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <span>Blusa Verde - R$39.90</span>
+            <button onclick="adicionarProduto('Blusa Verde', 39.90)">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <div class="carrinho">
+        <h2>Carrinho</h2>
+        <div id="listaCarrinho"></div>
+        <button onclick="listarItens()">Listar Itens no Carrinho</button>
+        <button onclick="limparCarrinho()">Limpar Carrinho</button>
+    </div>
+
+
+
+</body>
+</html>
