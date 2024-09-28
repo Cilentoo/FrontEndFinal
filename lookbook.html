@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Camisas</title>
+    <link rel="stylesheet" type="text/css" href="./css/principal.css"> 
+    <link rel="shortcut icon" type="imagex/png" href="./icons/noc.png">
+    <link rel="stylesheet" type="text/css" href="./css/lookbook.css"> 
+    <link rel="stylesheet" type="text/css" href="./css/lookbook.css"> 
+    <script src="./js/lookbook.js"></script> 
+</head>
+<body>
+    
+    <nav id="topoNav">
+        <ul>
+            <img src="./imgs/logoPrincipal.png" alt="Logo Principal" id="logoPrincipal"/>
+            <li><a href="catalogo.html">CATÁLOGO</a></li>
+            <li><a href="lookbook.html">LOOKBOOK</a></li>
+            <li><a href="sobre.html">SOBRE NÓS</a></li>
+            <li><a href="carrinho.html">CARRINHO</a></li>
+        </ul>
+    </nav>
+
+    <!-- Carrossel de Camisas -->
+    <h1>LOOKBOOK</h1>
+    <div class="book camisetas">
+        <!-- Botão anterior -->
+        <button class="book-button prev" onclick="prevImage()">&#10094;</button>
+
+        <div class="book - imagens">
+            <img src="imgs/modelo1.png" alt="Camisa 1">
+            <img src="imgs/modelo2.png" alt="Camisa 2">
+            <img src="imgs/modelo3.png" alt="Camisa 3">
+            <img src="imgs/modelo4.png" alt="Camisa 4">
+            <img src="imgs/modelo5.png" alt="Camisa 5">
+        </div>
+
+        <!-- Botão próximo -->
+        <button class="book-button next" onclick="nextImage()">&#10095;</button>
+    </div>
+
+    <script src="./js/scripts.js"></script> <!-- Link para o JavaScript -->
+</body>
+</html>
