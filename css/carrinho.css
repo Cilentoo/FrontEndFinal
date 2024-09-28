@@ -1,29 +1,13 @@
-/* principal.css */
-
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f8f8f8;
-}
-
-body::before {
-    content: '';
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../imgs/logoFundo.png'); 
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover; 
-    opacity: 0.5; 
-    z-index: -1; 
+    color: #333;
 }
 
 #topoNav {
@@ -33,11 +17,11 @@ body::before {
     left: 0;
     z-index: 1000;
     padding: 10px 0;
-    background-color: rgba(255, 255, 255, 0.9); /* Fundo levemente branco para contraste */
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 #topoNav img#logoPrincipal {
-    height: 225px;
+    height: 50px;
     width: auto;
 }
 
@@ -45,14 +29,12 @@ body::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding: 0;
     list-style: none;
+    padding: 0 20px;
 }
 
 #topoNav ul li {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0 10px;
 }
 
 #topoNav ul li a {
@@ -62,56 +44,84 @@ body::before {
     font-size: 16px;
 }
 
-#listaCarrinho {
-    max-width: 600px;
-    margin: 100px auto; /* Espaço para a nav fixa */
-    padding: 15px;
+#topoNav a:hover {
+    color: blueviolet;
+}
+
+.produtos {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.carrinho-item {
-    margin: 10px 0;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+.produto {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
-.carrinho-item:last-child {
+.produto:last-child {
     border-bottom: none;
 }
 
-strong {
-    display: block;
-    margin-top: 10px;
-    font-size: 18px;
-    color: #333;
-}
-
-p {
-    font-size: 16px;
-    color: #777;
-    text-align: center;
-}
-
-#btnLimparCarrinho {
-    background-color: #ff4d4d;
-    color: white;
+button {
+    background-color: blueviolet
+    color: yellow;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-    display: block;
-    width: 100%;
-    text-align: center;
+    font-size: 14px;
 }
 
-#btnLimparCarrinho:hover {
-    background-color: #e60000;
+button:hover {
+    background-color: blueviolet
 }
 
-#topoNav a:hov
+/* Estilização do carrinho */
+.carrinho {
+    max-width: 800px;
+    margin: 20px auto; /* Espaço em relação aos produtos */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#listaCarrinho {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%; /* Botões ocupam a largura total */
+}
+
+/* Responsividade */
+@media(max-width: 768px) {
+    #topoNav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #topoNav ul li {
+        margin-bottom: 10px;
+    }
+
+    .produtos, .carrinho {
+        width: 90%; /* Ajusta a largura em telas menores */
+    }
+
+    #topoNav img#logoPrincipal {
+        height: 40px;
+    }
+}
