@@ -1,6 +1,10 @@
 /*caracteristicas de todas as paginas*/
 /* Barra de navegação */
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 body::before {
     content: '';
     position: fixed; /* Fixa a imagem no fundo */
