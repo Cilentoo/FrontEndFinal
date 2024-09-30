@@ -33,7 +33,7 @@ function alterarImagemPessoaSelecionada(pessoa){
     const imagemPessoaEstampa = document.querySelector('.pessoaEstampa');
     const idPessoa = pessoa.attributes.id.value;
 
-    imagemPessoaEstampa.src = `./imgs/card-${idPessoa}.jpg`;
+    imagemPessoaEstampa.src = `./imgs/card-${idPessoa}.png`;
 }
 
 function removerSelecaoPessoa(){
