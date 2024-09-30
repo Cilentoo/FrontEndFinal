@@ -24,13 +24,7 @@ const carrinho = {
             this.itens.push(produto);
         }
         this.salvarCarrinho();
-        console.log(`${produto.nome} adicionado ao carrinho.`);
-    },
-
-    removerProduto(nomeProduto) {
-        this.itens = this.itens.filter(produto => produto.nome !== nomeProduto);
-        this.salvarCarrinho();
-        console.log(`${nomeProduto} removido do carrinho.`);
+        alert(`${produto.nome} adicionado ao carrinho.`);
     },
 
     calcularTotal() {
@@ -46,9 +40,9 @@ const carrinho = {
             return;
         }
         this.itens.forEach(produto => {
-            listaCarrinho.innerHTML += `<div class="carrinho-item">${produto.nome}: R$${produto.preco.toFixed(2)} (Quantidade: ${produto.quantidade})</div>`;
+            listaCarrinho.innerHTML += <div class="carrinho-item">${produto.nome}: R$${produto.preco.toFixed(2)} (Quantidade: ${produto.quantidade})</div>;
         });
-        listaCarrinho.innerHTML += `<strong>Total: R$${this.calcularTotal().toFixed(2)}</strong>`;
+        listaCarrinho.innerHTML += <strong>Total: R$${this.calcularTotal().toFixed(2)}</strong>;
     },
 
     salvarCarrinho() {
