@@ -40,9 +40,9 @@ const carrinho = {
             return;
         }
         this.itens.forEach(produto => {
-            listaCarrinho.innerHTML += <div class="carrinho-item">${produto.nome}: R$${produto.preco.toFixed(2)} (Quantidade: ${produto.quantidade})</div>;
+            listaCarrinho.innerHTML += `<div class="carrinho-item">${produto.nome}: R$${produto.preco.toFixed(2)} (Quantidade: ${produto.quantidade})</div>`;
         });
-        listaCarrinho.innerHTML += <strong>Total: R$${this.calcularTotal().toFixed(2)}</strong>;
+        listaCarrinho.innerHTML += `<strong>Total: R$${this.calcularTotal().toFixed(2)}</strong>`;
     },
 
     salvarCarrinho() {
@@ -52,7 +52,7 @@ const carrinho = {
     limparCarrinho() {
         this.itens = [];
         this.salvarCarrinho();
-        console.log("Carrinho limpo.");
+        alert("Carrinho limpo.");
     }
 };
 
