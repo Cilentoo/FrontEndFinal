@@ -23,7 +23,11 @@ Estamos fazendo as implementações e commits de forma individual em um mesmo re
 
 ### Clone o projeto:
 
+```bash
+
 git clone https://github.com/Cilentoo/FrontEndFinal
+
+```
 ## ou
 
 ## 📁 Acesso ao projeto
@@ -48,9 +52,9 @@ git clone https://github.com/Cilentoo/FrontEndFinal
 
 ## Autores
 
-- ![](https://imgur.com/undefined)[ISABELA DIAS](https://github.com/isabeladp)
+- ![](https://imgur.com/GSYUvYy)[ISABELA DIAS](https://github.com/isabeladp)
 
-- ![](https://imgur.com/undefined)[GABRIELA COUTO]( https://github.com/GabrielaCoutoD)
+- ![](https://imgur.com/bZAtJxE)[GABRIELA COUTO]( https://github.com/GabrielaCoutoD)
 
 - ![](https://imgur.com/7A6DzaD)[EDUARDO CILENTO](https://github.com/Cilentoo)
 
