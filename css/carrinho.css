@@ -75,23 +75,35 @@ button {
 
 /* Responsividade */
 @media(max-width: 768px) {
-    #topoNav ul {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    #topoNav ul li {
-        margin-bottom: 10px;
-    }
-
-    .produtos,
-    .carrinho {
-        width: 90%;
+    #topoNav {
+        flex-direction: column; /* Muda para coluna em telas menores */
+        align-items: center; /* Centraliza os itens */
+        padding: 5px; 
+        position: absolute;/* Ajusta o padding */
     }
 
     #topoNav img#logoPrincipal {
-        height: 40px;
-}
+        height: 150px; /* Ajusta o tamanho do logo */
+    }
 
+    #topoNav ul {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        width: 100%; /* Preenche toda a largura */
+        align-items: center; /* Centraliza os itens */
+    }
 
+    #topoNav ul li {
+        margin: 5px 0; /* Espaçamento vertical entre os itens do menu */
+    }
+
+    #topoNav ul li a {
+        font-size: 14px; /* Reduz o tamanho da fonte em telas menores */
+    }
+    #rodape {
+        clear: both;
+        text-align: center;
+        padding: 15px;
+        font-family: 'Roboto', sans-serif; 
+        font-weight: bold;
+    }
 }

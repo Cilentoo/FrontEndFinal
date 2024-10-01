@@ -71,19 +71,44 @@ body::before {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 768px) {
+    #topoNav {
+        flex-direction: column; /* Muda para coluna em telas menores */
+        align-items: center; /* Centraliza os itens */
+        padding: 5px; 
+        position: absolute;/* Ajusta o padding */
+    }
 
-/* codigo de responsividade */
-@media(max-width: 768px){
-    #topoNav ul{
-        flex-direction: column;
+    #topoNav img#logoPrincipal {
+        height: 150px; /* Ajusta o tamanho do logo */
+    }
+
+    #topoNav ul {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        width: 100%; /* Preenche toda a largura */
+        align-items: center; /* Centraliza os itens */
     }
 
     #topoNav ul li {
-        margin-left: 0;
-        margin-bottom: 10px;
+        margin: 5px 0; /* Espaçamento vertical entre os itens do menu */
     }
 
-    #topoNav img#logo {
-        height: 40px;
+    #topoNav ul li a {
+        font-size: 14px; /* Reduz o tamanho da fonte em telas menores */
     }
+    #rodape {
+        clear: both;
+        text-align: center;
+        padding: 15px;
+        font-family: 'Roboto', sans-serif; 
+        font-weight: bold;
+    }
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
 }
