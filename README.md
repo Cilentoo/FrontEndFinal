@@ -23,7 +23,6 @@ Estamos fazendo as implementações e commits de forma individual em um mesmo re
 
 ### Clone o projeto:
 
-```bash
 git clone https://github.com/Cilentoo/FrontEndFinal
 ## ou
 
