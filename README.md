@@ -52,13 +52,13 @@ git clone https://github.com/Cilentoo/FrontEndFinal
 
 ## Autores
 
-- ![](https://imgur.com/GSYUvYy)[ISABELA DIAS](https://github.com/isabeladp)
+- ![](https://i.imgur.com/nT4rDf0.jpeg)[ISABELA DIAS](https://github.com/isabeladp)
 
-- ![](https://imgur.com/bZAtJxE)[GABRIELA COUTO]( https://github.com/GabrielaCoutoD)
+- ![](https://i.imgur.com/yo1Gvfy.jpeg)[GABRIELA COUTO]( https://github.com/GabrielaCoutoD)
 
-- ![](https://imgur.com/7A6DzaD)[EDUARDO CILENTO](https://github.com/Cilentoo)
+- ![](https://i.imgur.com/m2Yr6Jd.jpeg)[EDUARDO CILENTO](https://github.com/Cilentoo)
 
-- ![](https://imgur.com/ixv2t2R)[LUIS FILIPE]( https://github.com/elipekkkj)
+- ![](https://i.imgur.com/Pd3d3xb.jpeg)[LUIS FILIPE]( https://github.com/elipekkkj)
 
-- ![](https://imgur.com/CA8A4KG)[ODAIR JUNIOR](https://github.com/t/)
+- ![](https://i.imgur.com/5rkAiby.jpeg)[ODAIR JUNIOR](https://github.com/OBRETAS15)
 
