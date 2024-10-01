@@ -138,3 +138,67 @@ body::before {
     font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width: 768px){
+    #topoNav {
+        height: auto; /* Ajusta a altura para se adaptar ao conteúdo */
+        padding: 15px 0; /* Aumenta o padding para maior área clicável */
+        position: absolute;
+    }
+
+    #topoNav {
+        flex-direction: column; /* Muda para coluna em telas menores */
+        align-items: center; /* Centraliza os itens */
+        padding: 5px; 
+        position: absolute;/* Ajusta o padding */
+    }
+
+    #topoNav img#logoPrincipal {
+        height: 150px; /* Ajusta o tamanho do logo */
+    }
+
+    #topoNav ul {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        width: 100%; /* Preenche toda a largura */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    #topoNav ul li {
+        margin: 5px 0; /* Espaçamento vertical entre os itens do menu */
+    }
+
+    #topoNav ul li a {
+        font-size: 14px; /* Reduz o tamanho da fonte em telas menores */
+    }
+
+    .selecaoPessoa{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecaoPessoa .pessoas{
+        margin-top: 37px;
+    }
+
+    .selecaoPessoa .pessoas .titulo{
+        font-size: 15px;
+    }
+
+    .selecaoPessoa .lista-de-pessoa{
+        gap: 9px;
+    }
+
+    .selecaoPessoa .pessoas .pessoa img{
+        width: 80px;
+    }
+
+    .pessoaSelecionada .pessoaEstampa{
+        width: 350px;
+        height: 350px;
+    }
+
+    .pessoaSelecionada .descricaoPessoa{
+        width: 80%;
+        margin: 20px auto;
+    }
+}

@@ -58,5 +58,41 @@ hr {
     width: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        padding-top: 120px; /* Ajusta o padding superior para dispositivos móveis */
+    }
 
+    #topoNav {
+        height: auto; /* Ajusta a altura para se adaptar ao conteúdo */
+        padding: 15px 0; /* Aumenta o padding para maior área clicável */
+        position: absolute;
+    }
 
+    #promo img#promocao {
+        height: auto; /* Ajusta a altura para se adaptar ao dispositivo */
+        max-width: 100%; 
+        margin-top: 350px;/* Garante que a imagem não exceda a largura da tela */
+        position: relative; /* Altera a posição para não ficar fixa */
+        top: 0; /* Reseta a posição vertical */
+        align-items: center; /* Remove a transformação */
+    }
+
+    .container {
+        flex-direction: column; /* Muda para coluna em telas menores */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    #video {
+        width: 90%; /* Ampliar a largura do vídeo em dispositivos móveis */
+        margin: 20px 0; /* Adicionar espaço em cima e embaixo */
+        left: 0; /* Remove a posição relativa */
+        margin-left: auto; /* Centraliza o vídeo */
+        margin-right: auto; /* Centraliza o vídeo */
+    }
+
+    #descricao {
+        font-size: 18px; /* Reduzir o tamanho da fonte para melhor legibilidade */
+        margin-top: 30px; /* Ajusta a margem superior */
+    }
+}
