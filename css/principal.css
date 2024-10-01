@@ -63,7 +63,13 @@ body::before {
     font-family:'Roboto', sans-serif;
 }
 
-
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    font-family:'Roboto', sans-serif; 
+    font-weight: bold;
+}
 
 
 /* codigo de responsividade */
